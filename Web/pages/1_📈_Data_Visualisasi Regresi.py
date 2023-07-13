@@ -43,7 +43,7 @@ if metode == "Extreme Learning Machine":
     if file_select == "Prediksi DKI1 PM10":
         uploaded_file = Path(__file__).parents[2] / 'Web/files/ELM prediction/DKI 1/DKI1_PM10_pred.xlsx'
     elif file_select == "Prediksi DKI1 SO2":
-        uploaded_file = Path(__file__).parents[2] / 'D:/Data/Kuliah/TA/Projek-TA/Web/files/ELM prediction/DKI 1/DKI1_SO2_pred.xlsx'
+        uploaded_file = Path(__file__).parents[2] / 'Web/files/ELM prediction/DKI 1/DKI1_SO2_pred.xlsx'
     elif file_select == "Prediksi DKI1 CO":
         uploaded_file = Path(__file__).parents[2] / 'D:/Data/Kuliah/TA/Projek-TA/Web/files/ELM prediction/DKI 1/DKI1_CO_pred.xlsx'
     elif file_select == "Prediksi DKI1 O3":

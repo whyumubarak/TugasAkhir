@@ -323,8 +323,7 @@ if visualisasi == "Metode Extreme Learning Machine":
 
         air_quality = elm_predict(X_test, W_test, b_test, round_output=True)
 
-        return air_quality[0] 
-        '''
+        #return air_quality[0] 
         if air_quality[0] == 1:
             return "BAIK"
         elif air_quality[0] == 2:
@@ -337,7 +336,6 @@ if visualisasi == "Metode Extreme Learning Machine":
             return "BERBAHAYA"
         else:
             return "Tidak dapat menentukan kualitas udara"
-        '''
 
     def main():
         st.title("Penilaian Kualitas Udara")
@@ -465,8 +463,7 @@ if visualisasi == "Metode Kernel Extreme Learning Machine":
 
         air_quality = elm_predict(X_test, W_test, b_test, round_output=True)
 
-        return air_quality[0] 
-        '''
+        #return air_quality[0] 
         if air_quality[0] == 1:
             return "BAIK"
         elif air_quality[0] == 2:
@@ -479,7 +476,6 @@ if visualisasi == "Metode Kernel Extreme Learning Machine":
             return "BERBAHAYA"
         else:
             return "Tidak dapat menentukan kualitas udara"
-        '''
 
     def main():
         st.title("Penilaian Kualitas Udara")

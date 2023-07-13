@@ -69,23 +69,23 @@ with colu2:
    with colo1:
       from PIL import Image
       #
-      image = Image.open('D:/Data/Kuliah/TA/Projek-TA/Web/images/b.png')
+      image = Image.open('Web/images/b.png')
       resized_image = image.resize((35, 35))
       st.image(resized_image)
       #
-      image = Image.open('D:/Data/Kuliah/TA/Projek-TA/Web/images/m.png')
+      image = Image.open('Web/images/m.png')
       resized_image = image.resize((35, 35))
       st.image(resized_image)
       #
-      image = Image.open('D:/Data/Kuliah/TA/Projek-TA/Web/images/u.png')
+      image = Image.open('Web/images/u.png')
       resized_image = image.resize((35, 35))
       st.image(resized_image)
       #
-      image = Image.open('D:/Data/Kuliah/TA/Projek-TA/Web/images/h.png')
+      image = Image.open('Web/images/h.png')
       resized_image = image.resize((35, 35))
       st.image(resized_image)
       #
-      image = Image.open('D:/Data/Kuliah/TA/Projek-TA/Web/images/o.png')
+      image = Image.open('Web/images/o.png')
       resized_image = image.resize((35, 35))
       st.image(resized_image)
    with colo2:

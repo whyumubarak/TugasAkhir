@@ -63,7 +63,7 @@ if metode == "Extreme Learning Machine":
     elif file_select == "Prediksi DKI2 NO2":
         uploaded_file = Path(__file__).parents[2] / 'Web/files/ELM prediction/DKI 2/DKI2_NO2_pred.xlsx'
     elif file_select == "Forecasting DKI2":
-        uploaded_file = Path(__file__).parents[2] / 'D:/Data/Kuliah/TA/Projek-TA/Web/files/ELM forecasting/ALL DKI FORECAST/DKI2_FORECAST.xlsx'
+        uploaded_file = Path(__file__).parents[2] / 'Web/files/ELM forecasting/ALL DKI FORECAST/DKI2_FORECAST.xlsx'
     if file_select == "Prediksi DKI3 PM10":
         uploaded_file = Path(__file__).parents[2] / 'Web/files/ELM prediction/DKI 3/DKI3_PM10_pred.xlsx'
     elif file_select == "Prediksi DKI3 SO2":
@@ -75,7 +75,7 @@ if metode == "Extreme Learning Machine":
     elif file_select == "Prediksi DKI3 NO2":
         uploaded_file = Path(__file__).parents[2] / 'Web/files/ELM prediction/DKI 3/DKI3_NO2_pred.xlsx'
     elif file_select == "Forecasting DKI3":
-        uploaded_file = Path(__file__).parents[2] / 'D:/Data/Kuliah/TA/Projek-TA/Web/files/ELM forecasting/ALL DKI FORECAST/DKI3_Forecast.xlsx'
+        uploaded_file = Path(__file__).parents[2] / 'Web/files/ELM forecasting/ALL DKI FORECAST/DKI3_Forecast.xlsx'
     if file_select == "Prediksi DKI4 PM10":
         uploaded_file = Path(__file__).parents[2] / 'Web/files/ELM prediction/DKI 4/DKI4_PM10_pred.xlsx'
     elif file_select == "Prediksi DKI4 SO2":
@@ -87,7 +87,7 @@ if metode == "Extreme Learning Machine":
     elif file_select == "Prediksi DKI4 NO2":
         uploaded_file = Path(__file__).parents[2] / 'Web/files/ELM prediction/DKI 4/DKI4_NO2_pred.xlsx'
     elif file_select == "Forecasting DKI4":
-        uploaded_file = Path(__file__).parents[2] / 'D:/Data/Kuliah/TA/Projek-TA/Web/files/ELM forecasting/ALL DKI FORECAST/DKI4_Forecast.xlsx'
+        uploaded_file = Path(__file__).parents[2] / 'Web/files/ELM forecasting/ALL DKI FORECAST/DKI4_Forecast.xlsx'
     if file_select == "Prediksi DKI5 PM10":
         uploaded_file = Path(__file__).parents[2] / 'Web/files/ELM prediction/DKI 5/DKI5_PM10_pred.xlsx'
     elif file_select == "Prediksi DKI5 SO2":
@@ -99,7 +99,7 @@ if metode == "Extreme Learning Machine":
     elif file_select == "Prediksi DKI5 NO2":
         uploaded_file = Path(__file__).parents[2] / 'Web/files/ELM prediction/DKI 5/DKI5_NO2_pred.xlsx'
     elif file_select == "Forecasting DKI5":
-        uploaded_file = Path(__file__).parents[2] / 'D:/Data/Kuliah/TA/Projek-TA/Web/files/ELM forecasting/ALL DKI FORECAST/DKI5_Forecast.xlsx'
+        uploaded_file = Path(__file__).parents[2] / 'Web/files/ELM forecasting/ALL DKI FORECAST/DKI5_Forecast.xlsx'
 
     try:
         df = pd.read_excel(uploaded_file)

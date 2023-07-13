@@ -4,3 +4,4 @@ folium
 streamlit_folium
 geopy==2.3.0
 joblib
+pandas

@@ -179,15 +179,15 @@ if metode == "Kernel Extreme Learning Machine":
 
     # Pemilihan file prediksi atau forecasting
     if file_select == "Prediksi DKI1 PM10":
-        uploaded_file = Path(__file__).parents[2] / 'D:/Data/Kuliah/TA/Projek-TA/Web/files/K-ELM prediction/DKI1/DKI1_PM10_prediksi.xlsx'
+        uploaded_file = Path(__file__).parents[2] / 'Web/files/K-ELM prediction/DKI1/DKI1_PM10_prediksi.xlsx'
     elif file_select == "Prediksi DKI1 SO2":
-        uploaded_file = Path(__file__).parents[2] / 'D:/Data/Kuliah/TA/Projek-TA/Web/files/K-ELM prediction/DKI1/DKI1_SO2_prediksi.xlsx'
+        uploaded_file = Path(__file__).parents[2] / 'Web/files/K-ELM prediction/DKI1/DKI1_SO2_prediksi.xlsx'
     elif file_select == "Prediksi DKI1 CO":
-        uploaded_file = Path(__file__).parents[2] / 'D:/Data/Kuliah/TA/Projek-TA/Web/files/K-ELM prediction/DKI1/DKI1_CO_prediksi.xlsx'
+        uploaded_file = Path(__file__).parents[2] / 'Web/files/K-ELM prediction/DKI1/DKI1_CO_prediksi.xlsx'
     elif file_select == "Prediksi DKI1 O3":
-        uploaded_file = Path(__file__).parents[2] / 'D:/Data/Kuliah/TA/Projek-TA/Web/files/K-ELM prediction/DKI1/DKI1_O3_prediksi.xlsx'
+        uploaded_file = Path(__file__).parents[2] / 'Web/files/K-ELM prediction/DKI1/DKI1_O3_prediksi.xlsx'
     elif file_select == "Prediksi DKI1 NO2":
-        uploaded_file = Path(__file__).parents[2] / 'D:/Data/Kuliah/TA/Projek-TA/Web/files/K-ELM prediction/DKI1/DKI1_NO2_prediksi.xlsx'
+        uploaded_file = Path(__file__).parents[2] / 'Web/files/K-ELM prediction/DKI1/DKI1_NO2_prediksi.xlsx'
     elif file_select == "Forecasting DKI1":
         uploaded_file = Path(__file__).parents[2] / 'D:/Data/Kuliah/TA/Projek-TA/Web/files/K- ELM forecasting/ALL_DKI_FORECAST/DKI1_Forecast.xlsx'
     if file_select == "Prediksi DKI2 PM10":

@@ -343,7 +343,7 @@ if visualisasi == "Metode Extreme Learning Machine":
         st.title("Penilaian Kualitas Udara")
         
         # Membaca file Excel
-        excel_file = "Web/files/ELM forecasting/FORECAST ELM.xlsx.xlsx"
+        excel_file = "Web/files/ELM forecasting/FORECAST ELM.xlsx"
         xls = pd.ExcelFile(excel_file)
         
         # Mendapatkan daftar sheet dalam file Excel

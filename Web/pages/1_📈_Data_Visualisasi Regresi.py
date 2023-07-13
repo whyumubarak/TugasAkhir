@@ -193,7 +193,7 @@ if metode == "Kernel Extreme Learning Machine":
     if file_select == "Prediksi DKI2 PM10":
         uploaded_file = Path(__file__).parents[2] / 'Web/files/K-ELM prediction/DKI2/DKI2_PM10_prediksi.xlsx'
     elif file_select == "Prediksi DKI2 SO2":
-        uploaded_file = Path(__file__).parents[2] / 'Web/files/K-ELM prediction/DKI2/DKI2_SO2_prediksi.xlsx
+        uploaded_file = Path(__file__).parents[2] / 'Web/files/K-ELM prediction/DKI2/DKI2_SO2_prediksi.xlsx'
     elif file_select == "Prediksi DKI2 CO":
         uploaded_file = Path(__file__).parents[2] / 'Web/files/K-ELM prediction/DKI2/DKI2_CO_prediksi.xlsx'
     elif file_select == "Prediksi DKI2 O3":

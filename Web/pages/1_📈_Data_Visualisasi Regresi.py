@@ -77,15 +77,15 @@ if metode == "Extreme Learning Machine":
     elif file_select == "Forecasting DKI3":
         uploaded_file = Path(__file__).parents[2] / 'D:/Data/Kuliah/TA/Projek-TA/Web/files/ELM forecasting/ALL DKI FORECAST/DKI3_Forecast.xlsx'
     if file_select == "Prediksi DKI4 PM10":
-        uploaded_file = Path(__file__).parents[2] / 'D:/Data/Kuliah/TA/Projek-TA/Web/files/ELM prediction/DKI 4/DKI4_PM10_pred.xlsx'
+        uploaded_file = Path(__file__).parents[2] / 'Web/files/ELM prediction/DKI 4/DKI4_PM10_pred.xlsx'
     elif file_select == "Prediksi DKI4 SO2":
-        uploaded_file = Path(__file__).parents[2] / 'D:/Data/Kuliah/TA/Projek-TA/Web/files/ELM prediction/DKI 4/DKI4_SO2_pred.xlsx'
+        uploaded_file = Path(__file__).parents[2] / 'Web/files/ELM prediction/DKI 4/DKI4_SO2_pred.xlsx'
     elif file_select == "Prediksi DKI4 CO":
-        uploaded_file = Path(__file__).parents[2] / 'D:/Data/Kuliah/TA/Projek-TA/Web/files/ELM prediction/DKI 4/DKI4_CO_pred.xlsx'
+        uploaded_file = Path(__file__).parents[2] / 'Web/files/ELM prediction/DKI 4/DKI4_CO_pred.xlsx'
     elif file_select == "Prediksi DKI4 O3":
-        uploaded_file = Path(__file__).parents[2] / 'D:/Data/Kuliah/TA/Projek-TA/Web/files/ELM prediction/DKI 4/DKI4_O3_pred.xlsx'
+        uploaded_file = Path(__file__).parents[2] / 'Web/files/ELM prediction/DKI 4/DKI4_O3_pred.xlsx'
     elif file_select == "Prediksi DKI4 NO2":
-        uploaded_file = Path(__file__).parents[2] / 'D:/Data/Kuliah/TA/Projek-TA/Web/files/ELM prediction/DKI 4/DKI4_NO2_pred.xlsx'
+        uploaded_file = Path(__file__).parents[2] / 'Web/files/ELM prediction/DKI 4/DKI4_NO2_pred.xlsx'
     elif file_select == "Forecasting DKI4":
         uploaded_file = Path(__file__).parents[2] / 'D:/Data/Kuliah/TA/Projek-TA/Web/files/ELM forecasting/ALL DKI FORECAST/DKI4_Forecast.xlsx'
     if file_select == "Prediksi DKI5 PM10":

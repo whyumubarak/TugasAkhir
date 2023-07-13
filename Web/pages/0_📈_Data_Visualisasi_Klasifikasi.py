@@ -316,7 +316,7 @@ if visualisasi == "Metode Extreme Learning Machine":
         return y
 
     def determine_air_quality(PM10, SO2, CO, O3, NO2):
-        model = joblib.load('Web/model_elm.sav')
+        model = joblib.load('Web/model_leaky.sav')
         W_test, b_test = model['W'], model['b']
 
         X_test = np.array([[PM10, SO2, CO, O3, NO2]])

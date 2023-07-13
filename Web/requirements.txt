@@ -3,5 +3,3 @@ openpyxl==3.0.10
 folium
 streamlit_folium
 geopy.geocoders
-DateTime
-plotly

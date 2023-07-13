@@ -19,7 +19,7 @@ if visualisasi == "Dataset ISPU":
     st.title("Visualisasi Dataset ISPU")
     # Load the Excel file
     def load_excel():
-        file_path = "D:/Data/Kuliah/TA/Projek-TA/DATA/Imputer/DATA ISPU - Impute.xlsx"
+        file_path = "DATA/Imputer/DATA ISPU - Impute.xlsx"
         xls = pd.ExcelFile(file_path)
         sheets = xls.sheet_names
         data = {}
@@ -224,26 +224,26 @@ if visualisasi == "Dataset ISPU":
 
         with tab2:
             st.subheader("DKI1 Bunderan HI")
-            Dki1 = pd.read_excel("D:/Data/Kuliah/TA/Projek-TA/DATA/Imputer/DATA ISPU - Impute.xlsx", sheet_name="DKI1")
+            Dki1 = pd.read_excel("DATA/Imputer/DATA ISPU - Impute.xlsx", sheet_name="DKI1")
             st.write(Dki1)
 
         with tab3:
             st.subheader("DKI2 Kelapa Gading")
-            Dki2 = pd.read_excel("D:/Data/Kuliah/TA/Projek-TA/DATA/Imputer/DATA ISPU - Impute.xlsx", sheet_name="DKI2")
+            Dki2 = pd.read_excel("DATA/Imputer/DATA ISPU - Impute.xlsx", sheet_name="DKI2")
             st.write(Dki2)
         with tab4:
             st.subheader("DKI3 Jagakarsa")
-            Dki3 = pd.read_excel("D:/Data/Kuliah/TA/Projek-TA/DATA/Imputer/DATA ISPU - Impute.xlsx", sheet_name="DKI3")
+            Dki3 = pd.read_excel("DATA/Imputer/DATA ISPU - Impute.xlsx", sheet_name="DKI3")
             st.write(Dki3)
 
         with tab5:
             st.subheader("DKI4 Lubang Buaya")
-            Dki4 = pd.read_excel("D:/Data/Kuliah/TA/Projek-TA/DATA/Imputer/DATA ISPU - Impute.xlsx", sheet_name="DKI4")
+            Dki4 = pd.read_excel("DATA/Imputer/DATA ISPU - Impute.xlsx", sheet_name="DKI4")
             st.write(Dki4)
 
         with tab6:
             st.subheader("DKI5 Kebon Jeruk")
-            Dki5 = pd.read_excel("D:/Data/Kuliah/TA/Projek-TA/DATA/Imputer/DATA ISPU - Impute.xlsx", sheet_name="DKI5")
+            Dki5 = pd.read_excel("DATA/Imputer/DATA ISPU - Impute.xlsx", sheet_name="DKI5")
             st.write(Dki5)
 
     # Run the app

@@ -61,7 +61,7 @@ with colu1:
     ).add_to(m)
     
     # call to render Folium map in Streamlit
-    st_data = st_folium(m, width=700, height=400)
+    st_data = st_folium(m, width=1000, height=400)
 
 with colu2:
    st.subheader('Keterangan Lokasi Tower')

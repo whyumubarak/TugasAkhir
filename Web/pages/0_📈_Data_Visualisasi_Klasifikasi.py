@@ -261,25 +261,25 @@ if visualisasi == "Metode Extreme Learning Machine":
     tab1, tab2, tab3, tab4, tab5 = st.tabs(["DKI1 Bunderan HI","DKI2 Kelapa Gading", "DKI3 Jagakarsa", "DKI4 Lubang Buaya", "DKI5 Kebon Jeruk"])
     with tab1:
         st.subheader("DKI1 Bunderan HI")
-        Dki1 = pd.read_excel("D:/Data/Kuliah/TA/Projek-TA/Web/files/ELM forecasting/FORECAST ELM.xlsx", sheet_name="DKI1")
+        Dki1 = pd.read_excel("Web/files/ELM forecasting/FORECAST ELM.xlsx", sheet_name="DKI1")
         st.write(Dki1)
     with tab2:
         st.subheader("DKI2 Kelapa Gading")
-        Dki2 = pd.read_excel("D:/Data/Kuliah/TA/Projek-TA/Web/files/ELM forecasting/FORECAST ELM.xlsx", sheet_name="DKI2")
+        Dki2 = pd.read_excel("Web/files/ELM forecasting/FORECAST ELM.xlsx", sheet_name="DKI2")
         st.write(Dki2)
     with tab3:
         st.subheader("DKI3 Jagakarsa")
-        Dki3 = pd.read_excel("D:/Data/Kuliah/TA/Projek-TA/Web/files/ELM forecasting/FORECAST ELM.xlsx", sheet_name="DKI3")
+        Dki3 = pd.read_excel("Web/files/ELM forecasting/FORECAST ELM.xlsx", sheet_name="DKI3")
         st.write(Dki3)
 
     with tab4:
         st.subheader("DKI4 Lubang Buaya")
-        Dki4 = pd.read_excel("D:/Data/Kuliah/TA/Projek-TA/Web/files/ELM forecasting/FORECAST ELM.xlsx", sheet_name="DKI4")
+        Dki4 = pd.read_excel("Web/files/ELM forecasting/FORECAST ELM.xlsx", sheet_name="DKI4")
         st.write(Dki4)
 
     with tab5:
         st.subheader("DKI5 Kebon Jeruk")
-        Dki5 = pd.read_excel("D:/Data/Kuliah/TA/Projek-TA/Web/files/ELM forecasting/FORECAST ELM.xlsx", sheet_name="DKI5")
+        Dki5 = pd.read_excel("Web/files/ELM forecasting/FORECAST ELM.xlsx", sheet_name="DKI5")
         st.write(Dki5)
 
     import numpy as np
@@ -343,7 +343,7 @@ if visualisasi == "Metode Extreme Learning Machine":
         st.title("Penilaian Kualitas Udara")
         
         # Membaca file Excel
-        excel_file = "D:/Data/Kuliah/TA/Projek-TA/Web/files/ELM forecasting/FORECAST ELM.xlsx"
+        excel_file = "Web/files/ELM forecasting/FORECAST ELM.xlsx.xlsx"
         xls = pd.ExcelFile(excel_file)
         
         # Mendapatkan daftar sheet dalam file Excel

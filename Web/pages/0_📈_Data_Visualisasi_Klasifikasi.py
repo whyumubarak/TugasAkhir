@@ -186,7 +186,7 @@ if visualisasi == "Dataset ISPU":
                     'title': 'Baik',
                     'subtitle': 'Tingkat kualitas udara yang sangat baik, tidak memberikan efek  negatif terhadap manusia, hewan, tumbuhan.',
                     'action': 'Sangat baik melakukan kegiatan diluar.',
-                    'action2': 'Setiap orang: Masih dapat beraktivitas di luar.',
+                    'action2': '',
                     'color': 'green'
                 },
                 {

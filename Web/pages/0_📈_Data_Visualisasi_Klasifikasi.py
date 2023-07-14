@@ -192,6 +192,7 @@ if visualisasi == "Dataset ISPU":
                     'title': 'Sedang',
                     'subtitle': 'Tingkat kualitas udara masih dapat diterima pada kesehatan manusia, hewan dan tumbuhan.',
                     'action': 'Kelompok sensitif: Kurangi aktivitas fisik yang terlalu lama atau berat.Setiap orang: Masih dapat beraktivitas di luar.',
+                    'action2': 'Setiap orang: Masih dapat beraktivitas di luar.',
                     'color': 'blue'
                 },
                 {
@@ -221,6 +222,7 @@ if visualisasi == "Dataset ISPU":
                     st.write(f'<h2 style="font-size: 12px; color:black; text-align:center; background-color:white;">{data[i]["subtitle"]}</h2>', unsafe_allow_html=True)
                     st.write('<h2 style="font-size: 16px; font-weight:bold; color:black; text-align:center; background-color:white;">Apa yang harus dilakukan:</h2>', unsafe_allow_html=True)
                     st.write(f'<h2 style="font-size: 12px; color:black; text-align:center; background-color:white;">{data[i]["action"]}</h2>', unsafe_allow_html=True)
+                    st.write(f'<h2 style="font-size: 12px; color:black; text-align:center; background-color:white;">{data[i]["action2"]}</h2>', unsafe_allow_html=True)
 
         with tab2:
             st.subheader("DKI1 Bunderan HI")

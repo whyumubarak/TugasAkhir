@@ -187,34 +187,39 @@ if visualisasi == "Dataset ISPU":
                     'subtitle': 'Tingkat kualitas udara yang sangat baik, tidak memberikan efek  negatif terhadap manusia, hewan, tumbuhan.',
                     'action': 'Sangat baik melakukan kegiatan diluar.',
                     'action2': '',
+                    'action3': '',
                     'color': 'green'
                 },
                 {
                     'title': 'Sedang',
                     'subtitle': 'Tingkat kualitas udara masih dapat diterima pada kesehatan manusia, hewan dan tumbuhan.',
-                    'action': 'Kelompok sensitif: Kurangi aktivitas fisik yang terlalu lama atau berat.Setiap orang: Masih dapat beraktivitas di luar.',
-                    'action2': 'Setiap orang: Masih dapat beraktivitas di luar.',
+                    'action': 'Kelompok Sensitif: Kurangi aktivitas fisik yang terlalu lama atau berat.',
+                    'action2': 'Setiap Orang: Masih dapat beraktivitas di luar.',
+                    'action3': '',
                     'color': 'blue'
                 },
                 {
                     'title': 'Tidak Sehat',
                     'subtitle': 'Tingkat kualitas udara yang bersifat merugikan paga manusia, hewan, dan tumbuhan.',
-                    'action': '',
-                    'action2': 'Setiap orang: Masih dapat beraktivitas di luar.',
+                    'action': 'Kelompok Sensitif : Boleh melakukan aktivitas di luar, tetapi mengambil rehat lebih sering dan melakukan aktivitas ringan. Amati gejala berupa batuk atau nafas sesak.',
+                    'action2': 'Penderita Asma : harus mengikuti petunjuk kesehatan untuk asma dan menyimpan obat asma.',
+                    'action3': 'Setiap Orang : Mengurangi aktivitas fisik yang terlalu lama di luar ruangan.',
                     'color': 'orange'
                 },
                 {
                     'title': 'Sangat Tidak Sehat',
                     'subtitle': 'Tingkat kualitas udara yang dapat meningkatkan risiko kesehatan pada sejumlah segmen populasi yang terpapar.',
-                    'action': 'aaaaaaaaaa',
-                    'action2': 'Setiap orang: Masih dapat beraktivitas di luar.',
+                    'action': 'Kelompok Sensitif : Hindari semua aktivitas di luar. Perbanyak aktivitas di dalam ruangan atau lakukan penjadwalan ulang pada waktu dengan kualitas udara yang baik.',
+                    'action2': 'Setiap Orang : Hindari aktivitas fisik yang terlalu lama di luar ruangan, pertimbangkan untuk melakukan aktivitas di dalam ruangan.',
+                    'action3': '',
                     'color': 'red'
                 },
                 {
                     'title': 'Berbahaya',
                     'subtitle': 'Tingkat kualitas udara yang dapat merugikan kesehatan serius pada populasi dan perlu penanganan cepat.',
-                    'action': 'aaaaaaaaa',
-                    'action2': 'Setiap orang: Masih dapat beraktivitas di luar.',
+                    'action': 'Kelompok Sensitif : Tetap di dalam ruangan dan hanya melakukan sedikit aktivitas',
+                    'action2': 'Setiap Orang : Hindari semua aktivitas di luar',
+                    'action3': '',
                     'color': 'black'
                 }
             ]
@@ -227,6 +232,7 @@ if visualisasi == "Dataset ISPU":
                     st.write('<h2 style="font-size: 16px; font-weight:bold; color:black; text-align:center; background-color:white;">Apa yang harus dilakukan:</h2>', unsafe_allow_html=True)
                     st.write(f'<h2 style="font-size: 12px; color:black; text-align:center; background-color:white;">{data[i]["action"]}</h2>', unsafe_allow_html=True)
                     st.write(f'<h2 style="font-size: 12px; color:black; text-align:center; background-color:white;">{data[i]["action2"]}</h2>', unsafe_allow_html=True)
+                    st.write(f'<h2 style="font-size: 12px; color:black; text-align:center; background-color:white;">{data[i]["action3"]}</h2>', unsafe_allow_html=True)
 
         with tab2:
             st.subheader("DKI1 Bunderan HI")

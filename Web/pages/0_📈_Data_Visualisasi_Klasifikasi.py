@@ -186,6 +186,7 @@ if visualisasi == "Dataset ISPU":
                     'title': 'Baik',
                     'subtitle': 'Tingkat kualitas udara yang sangat baik, tidak memberikan efek  negatif terhadap manusia, hewan, tumbuhan.',
                     'action': 'Sangat baik melakukan kegiatan diluar.',
+                    'action2': 'Setiap orang: Masih dapat beraktivitas di luar.',
                     'color': 'green'
                 },
                 {
@@ -199,18 +200,21 @@ if visualisasi == "Dataset ISPU":
                     'title': 'Tidak Sehat',
                     'subtitle': 'Tingkat kualitas udara yang bersifat merugikan paga manusia, hewan, dan tumbuhan.',
                     'action': '',
+                    'action2': 'Setiap orang: Masih dapat beraktivitas di luar.',
                     'color': 'orange'
                 },
                 {
                     'title': 'Sangat Tidak Sehat',
                     'subtitle': 'Tingkat kualitas udara yang dapat meningkatkan risiko kesehatan pada sejumlah segmen populasi yang terpapar.',
                     'action': 'aaaaaaaaaa',
+                    'action2': 'Setiap orang: Masih dapat beraktivitas di luar.',
                     'color': 'red'
                 },
                 {
                     'title': 'Berbahaya',
                     'subtitle': 'Tingkat kualitas udara yang dapat merugikan kesehatan serius pada populasi dan perlu penanganan cepat.',
                     'action': 'aaaaaaaaa',
+                    'action2': 'Setiap orang: Masih dapat beraktivitas di luar.',
                     'color': 'black'
                 }
             ]

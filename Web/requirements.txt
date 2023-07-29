@@ -8,3 +8,4 @@ pandas
 StandardScaler
 pickle
 scikit-learn
+sklearn.metrics

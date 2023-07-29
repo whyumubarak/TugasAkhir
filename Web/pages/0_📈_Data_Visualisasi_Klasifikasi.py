@@ -300,8 +300,6 @@ if visualisasi == "Metode Extreme Learning Machine":
     import numpy as np
     from numpy.linalg import pinv, inv
     import time
-    from sklearn.metrics import classification_report, confusion_matrix
-    from sklearn.metrics import ConfusionMatrixDisplay
 
     class elm():
         def __init__(self, hidden_units, activation_function, x, y, C, elm_type, one_hot=True, random_type='normal'):
@@ -693,8 +691,6 @@ if visualisasi == "Metode Kernel Extreme Learning Machine":
     import streamlit as st
     import pandas as pd
     import numpy as np
-    from sklearn.preprocessing import QuantileTransformer
-    from sklearn.preprocessing import StandardScaler
 
     # Load the ELM model from the .sav file
     with open('ELM_M.sav', 'rb') as file:

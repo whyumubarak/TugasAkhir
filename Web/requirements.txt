@@ -7,4 +7,4 @@ joblib
 pandas
 StandardScaler
 pickle
-sklearn
+scikit-learn

@@ -34,14 +34,14 @@ with col1:
     resized_image = image.resize((new_width, new_height))
     st.image(resized_image, caption='WAHYU MUBARAK SUKIMAN')
 with col2:
-    image = Image.open('Web/images/y.jpg')
+    image = Image.open('Web/images/z.jpg')
     scale_factor = 0.5 
     new_width = int(image.width * scale_factor)
     new_height = int(image.height * scale_factor)
     resized_image = image.resize((new_width, new_height))
     st.image(resized_image, caption='AGUNG SULAKSONO RAMDHANI')
 with col3:
-    image = Image.open('Web/images/z.jpg')
+    image = Image.open('Web/images/y.jpg')
     scale_factor = 0.5 
     new_width = int(image.width * scale_factor)
     new_height = int(image.height * scale_factor)

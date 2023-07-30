@@ -429,7 +429,7 @@ if visualisasi == "Metode Extreme Learning Machine":
     from sklearn.preprocessing import StandardScaler
 
     # Load the ELM model from the .sav file
-    with open('ELM_M.sav', 'rb') as file:
+    with open('Web/ELM_M.sav', 'rb') as file:
         model_data = pickle.load(file)
 
     kelayakan_model = model_data
@@ -693,7 +693,7 @@ if visualisasi == "Metode Kernel Extreme Learning Machine":
     import numpy as np
 
     # Load the ELM model from the .sav file
-    with open('ELM_M.sav', 'rb') as file:
+    with open('Web/ELM_M.sav', 'rb') as file:
         model_data = pickle.load(file)
 
     kelayakan_model = model_data
